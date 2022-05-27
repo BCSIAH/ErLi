@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>er li kitchen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+        body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 150vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#recipes {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#recipes td, #recipes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#recipes tr:nth-child(even){background-color: #f2f2f2;}
+
+#recipes tr:hover {background-color: #ddd;}
+
+#recipes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.freepik.com/free-photo/cook-with-eggs-rustic-kitchen-men-s-hands_155003-4405.jpg?t=st=1653647743~exp=1653648343~hmac=9d21eefc9c53e5331ffe36f205f44b88a138d93cd3be91b5dd42fb09757d4a4f&w=1480')
+}
+
+#recipes {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.freepik.com/free-photo/composition-with-baking-ingredients-kitchen-accessories-white-table_169016-8713.jpg?t=st=1653654243~exp=1653654843~hmac=b2768ecf75d433604edad4e5ef16eef74c59e61e23ece4d0bf4ed3b5b71a9fec&w=1480')
+}
+
+#order {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.freepik.com/free-photo/bakery_23-2148011596.jpg?w=1800') 
+}
+
+    </style>
+
+    <body>
+        <header>
+            <img src="https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/llama.jpg" class="profile-img">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/llama.jpg" class="profile-img">
+                    <h1>Hi, I'm Er Li. Welcome to my Kitchen </h1>
+                    <h3>Like & subscribe on our Youtube Channel<p><a href="https://www.youtube.com/channel/UCwtWwz-xNVOSUwfYLgkeiRg" target="_blank">Er Li Kitchen</a></p></h3>
+                </div>
+            </section>
+            <section id="recipes">
+                <div class="section-inner">
+                    <h2>Check on Er Li's Recipes</h2>
+                    <table id="recipes">
+                        <tr>
+                            <th>No</th>
+                            <th>Recipes</th>
+                            <th>Link</th>
+                           </tr>
+                           <tr>
+                           <td>1.</td>
+                           <td>Gingerbread Man</td>
+                           <td>https://www.youtube.com/watch?v=ZaKmXqf5waY&t=7s</td><br/
+                           </tr>
+                           <tr>
+                           <td>2.</td>
+                           <td>Christmas Fruit Cake</td>
+                           <td>https://www.youtube.com/watch?v=NrlgnDxYHaY</td>
+                           </tr>
+                           <tr>
+                           <td>3.</td>
+                           <td>Mango Panna Cotta</td>
+                           <td>https://www.youtube.com/watch?v=bh60rfGAjGU</td>
+                           </tr>
+                   </table>
+                    <h3>Do check on our traditional mooncake tutorials video.</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BjlCOCpRjYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Ingredients for 11 Single egg yolk mooncakes</h3>
+                    <ol>
+                        <li>maple syrup 160g</li>
+                        <li>corn oil 50g</li>
+                        <li>lye water 1tbsp</li>
+                        <li>plain flour 230g</li>
+                        <li>paste 1kg</li> 
+                        <li>melon seed</li>
+                        <li>salted egg yolk</li>
+                        <li>sesame oil 1tsp</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="order">
+                <div class="section-inner">
+                    <h2>Order from us</h2>
+                    <form>
+                        <form action="/action_page.php">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="your first name" required><br><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" placeholder="your last name" required><br><br>
+                            <label for="Contact">Contact:</label><br>
+                            <input type="text" id="" name="Contact" placeholder="your mobile no" required><br><br>
+        
+                            <h2><label for="flavors">Pick your Mooncake flavors:</label></h2>
+                            <select name="flavors" id="flavors" multiple>
+                              <option value="Wuren">Wuren</option>
+                              <option value="Red Bean">Red Bean</option>
+                              <option value="White Lotus">White Lotus</option>
+                              <option value="Yam">Yam</option>
+                            </select> <br><br>
+            Delivery options
+            <input type="radio" id="Delivery" name="Delivery" value="Delivery">
+          <label for="Delivery">Delivery</label>
+          <input type="radio" id="Self pick up" name="Self pick up" value="Self pick up">
+          <label for="Self pick up">Self pick up</label><br><br>
+          <input type="submit">
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright Er Li Kitchen, 2022
+        </footer>
+    </body>
+</html>
